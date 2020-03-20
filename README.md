@@ -12,6 +12,11 @@ Chanting techniques in sanskrit slokas
 
 * [EXE file](https://github.com/Saketh-Chandra/Chanting_Techniques/tree/master/Chanting%20Techinques/EXE%20file) this contain the Windows app(.EXE) file
 
+Installation
+------------
+
+* **Download for windows** [Link](https://github.com/Saketh-Chandra/Chanting_Techniques/blob/master/Chanting%20Techinques/EXE%20file/Canting%20Techinques.exe?raw=true)
+
 # :octocat: How to contribute?
 
 All contributions are welcome! Code, documentation, graphics or even design suggestions are welcome; use GitHub to its fullest. Submit pull requests, contribute tutorials or other wiki content -- whatever you have to offer, it would be appreciated!
