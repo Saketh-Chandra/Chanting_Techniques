@@ -7,7 +7,7 @@ A bunch of Chanting_Techniques programs that are being tested. :x:
 * **Saketh Chandra** - *Coder and tester* - [Saketh-Chandra](https://github.com/Saketh-Chandra)
 * **Kittu Ekanth** - *Coder and tester* - [Dara-Ekanth](https://github.com/Dara-Ekanth)
 
-See the full list of [contributors](https://github.com/Saketh-Chandra/Chanting_Techniques/graphs/contributorss) who participated in this project and statistics.
+See the full list of [contributors](https://github.com/Saketh-Chandra/Chanting_Techniques/graphs/contributors) who participated in this project and statistics.
 
 # :heavy_exclamation_mark: Prerequisites aka requirements
 
