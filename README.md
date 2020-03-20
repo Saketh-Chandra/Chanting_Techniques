@@ -1,5 +1,8 @@
 # Chanting_Techniques
 Chanting techniques in sanskrit slokas
+- **Status**: Beta
+- **Version**: v1.0.0
+
 
 # :book: How to use the repository?
 
