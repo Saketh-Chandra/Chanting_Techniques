@@ -1,7 +1,7 @@
 # Chanting_Techniques
 Chanting techniques in sanskrit slokas
-- **Status**: Beta
-- **Version**: v1.0.0
+
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/Saketh-Chandra/Chanting_Techniques) ![GitHub](https://img.shields.io/github/license/Saketh-Chandra/Chanting_Techniques)
 
 
 # :book: How to use the repository?
