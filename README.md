@@ -10,8 +10,6 @@ Chanting techniques in sanskrit slokas
 
 * [Source Codes Testing](https://github.com/Saketh-Chandra/Chanting_Techniques/tree/master/Chanting%20Techinques/Source%20Codes%20Testing) contains new codes that are being tested and are scheduled to be pushed to stable channel soon. For any issues please report to us in the format mentioned below. Feel free to also contribute to this folder. Details mentioned below.
 
-* [EXE file](https://github.com/Saketh-Chandra/Chanting_Techniques/tree/master/Chanting%20Techinques/EXE%20file) this contain the Windows app(.EXE) file
-
 Installation
 ------------
 
