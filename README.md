@@ -15,7 +15,7 @@ Chanting techniques in sanskrit slokas
 Installation
 ------------
 
-* **Download for windows** [Link](https://github.com/Saketh-Chandra/Chanting_Techniques/blob/master/Chanting%20Techinques/EXE%20file/Canting%20Techinques.exe?raw=true)
+* **Download for windows** [Link](https://github.com/Saketh-Chandra/Chanting_Techniques/releases/download/V1.0.2/Chanting_Techniques.exe)
 
 # :octocat: How to contribute?
 
