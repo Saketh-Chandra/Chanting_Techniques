@@ -48,7 +48,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 # :octocat: Team
 
 * **Saketh Chandra** - *Coder and tester* - [Saketh-Chandra](https://github.com/Saketh-Chandra)
-* **Kittu Ekanth** - *Coder and tester* - [Dara-Ekanth](https://github.com/Dara-Ekanth)
+* **Dara Ekanth** - *Coder and tester* - [Dara-Ekanth](https://github.com/Dara-Ekanth)
 
 See the full list of [contributors](https://github.com/Saketh-Chandra/Chanting_Techniques/graphs/contributors) who participated in this project and statistics.
 
