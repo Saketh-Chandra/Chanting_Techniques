@@ -4,23 +4,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chanting_Techniques</title>
-    <meta name="description" content="This a sample Progressive Web Apps (PWA) application build with PyScript.">
-     <link rel="canonical" href="https://saketh-chandra.github.io/Chanting_Techniques/" />
+    <title>Chanting Techniques</title>
+    <meta name="description"
+          content="This a Chanting Techniques project which done in Python at 2019 and now in 2022 it has Remaster to Progressive Web Apps (PWA) application build with PyScript + JavaScript.">
+    <link rel="canonical" href="https://saketh-chandra.github.io/Chanting_Techniques/"/>
 
-    <link rel="icon" type="image/png" href="/Chanting_Techniques/static/images/icons/hello_64.png">
+    <link rel="icon" type="image/png" href="/Chanting_Techniques/static/images/icons/om_icon_x96.png">
     <link rel="manifest" href="/Chanting_Techniques/static/manifest.json">
 
-    <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css"/>
-    <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
-    <script src="/Chanting_Techniques/static/js/main.js"></script>
+    <link rel="stylesheet" href="/Chanting_Techniques/static/pyscript/alpha/pyscript.css"/>
+    <!--    <script defer src="https://pyscript.net/alpha/pyscript.js"></script>-->
+    <script defer src="/Chanting_Techniques/static/pyscript/alpha/pyscript.min.js"></script>
 
     <!-- ios support -->
-  <link rel="apple-touch-icon" href="/Chanting_Techniques/static/images/icons/hello_96.png">
-  <meta name="apple-mobile-web-app-status-bar" content="#000000">
-  <meta name="theme-color" content="#000000">
-
-
+    <link rel="apple-touch-icon" href="/Chanting_Techniques/static/images/icons/om_icon_x96.png">
+    <meta name="apple-mobile-web-app-status-bar" content="#000000">
+    <meta name="theme-color" content="#000000">
 
     <py-config>
         - autoclose_loader: true
@@ -44,11 +43,8 @@
             - "./Chanting Techinques/Source Code/sikhapatha.py"
     </py-env>
 
-
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-
-
+          integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
 
     <style>
@@ -137,7 +133,8 @@
         .contact-form .submit-button-wrapper input:hover {
             background-color: #d30069;
         }
-        .output{
+
+        .output {
             white-space: pre-wrap;
         }
     </style>
@@ -146,85 +143,87 @@
 
 <body>
 
-    <nav class="navbar navbar-dark bg-dark" aria-label="First navbar example">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="/Chanting_Techniques/">Chanting_Techniques</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample01"
+<nav class="navbar navbar-dark bg-dark" aria-label="First navbar example">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="/Chanting_Techniques/">Chanting Techniques</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample01"
                 aria-controls="navbarsExample01" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-            <div class="collapse navbar-collapse" id="navbarsExample01">
-                <ul class="navbar-nav me-auto mb-2">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="/Chanting_Techniques/">Home</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-bs-toggle="dropdown"
-                            aria-expanded="false">About Project</a>
-                        <ul class="dropdown-menu" aria-labelledby="dropdown01">
-                            <li><a class="dropdown-item" href="https://github.com/Saketh-Chandra/Chanting_Techniques">Source Code </a></li>
-                            <li><a class="dropdown-item" href="https://github.com/Saketh-Chandra/Chanting_Techniques/blob/main/LICENSE">LICENSE</a></li>
+        <div class="collapse navbar-collapse" id="navbarsExample01">
+            <ul class="navbar-nav me-auto mb-2">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="/Chanting_Techniques/">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-bs-toggle="dropdown"
+                       aria-expanded="false">About Project</a>
+                    <ul class="dropdown-menu" aria-labelledby="dropdown01">
+                        <li><a class="dropdown-item" href="https://github.com/Saketh-Chandra/Chanting_Techniques">Source
+                            Code </a></li>
+                        <li><a class="dropdown-item"
+                               href="https://github.com/Saketh-Chandra/Chanting_Techniques/blob/master/LICENSE">LICENSE</a>
+                        </li>
+                        <li><a class="dropdown-item"
+                               href="https://github.com/sponsors/Saketh-Chandra"><img src="https://img.shields.io/static/v1?label=Sponsor&message=❤&logo=GitHub&color=%23fe8e86"></a>
+                        </li>
 
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-
-
-
-    <div>
-        <div class="contact-form-wrapper d-flex justify-content-center">
-            <form action="javascript:void(0);" class="contact-form">
-                <h5  class="title">
-                    <py-script>
-                        print("Chanting Techniques")
-                    </py-script>
-                </h5>
-                <p class="description">Generating Pattens in Chanting</p>
-                <div>
-                    <input type="text" class="form-control rounded border-white mb-3 form-input" id="FileName"
-                        placeholder="File Name">
-                    <button class="form-control rounded mb-3" onClick="button();">Open File</button>
-                </div>
-                <div>
-<!--                    <input type="number" class="form-control rounded border-white mb-3 form-input" id="upper"-->
-<!--                        placeholder="Mix Number" required>-->
-                    <select class="form-select rounded mb-3" id="selecttpye">
-                        <option selected="true" value='default'  disabled="disabled">Select Chanting Type</option>
-                        <option value="Ghanapatha">Ghanapatha</option>
-                        <option value="Jathapatha">Jathapatha</option>
-                        <option value="Rekhapatha">Rekhapatha</option>
-                        <option value="Kramapatha">Kramapatha</option>
-                        <option value="Malapatha">Malapatha</option>
-                        <option value="Sikhapatha">Sikhapatha</option>
-                        <option value="Dwajapatha">Dwajapatha</option>
-                        <option value="Rathapatha">Rathapatha</option>
-                        <option value="Dhandapatha">Dhandapatha</option>
-                    </select>
-                </div>
-
-                <div>
-                    <textarea id="output" class="form-control rounded border-white mb-3 form-text-area output" rows="5"
-                        cols="30" value="" placeholder="Output"></textarea>
-                </div>
-                <div class="submit-button-wrapper">
-                    <input type="submit" id ='submit' pys-onclick="main" value="Generate">
-                </div>
-            </form>
+                    </ul>
+                </li>
+            </ul>
         </div>
     </div>
+</nav>
 
-    <py-script src="/Chanting_Techniques/static/python/main.py"></py-script>
+
+<div>
+    <div class="contact-form-wrapper d-flex justify-content-center">
+        <form action="javascript:void(0);" class="contact-form">
+            <h5 class="title">
+                <py-script>
+                    print("Chanting Techniques")
+                </py-script>
+            </h5>
+            <p class="description">Generating Pattens in Chanting</p>
+            <div>
+                <input type="text" class="form-control rounded border-white mb-3 form-input" id="FileName"
+                       placeholder="File Name">
+                <button class="form-control rounded mb-3" onClick="button();">Open File</button>
+            </div>
+            <div>
+                <select class="form-select rounded mb-3" id="selecttpye">
+                    <option selected="true" value='default' disabled="disabled">Select Chanting Type</option>
+                    <option value="Ghanapatha">Ghanapatha</option>
+                    <option value="Jathapatha">Jathapatha</option>
+                    <option value="Rekhapatha">Rekhapatha</option>
+                    <option value="Kramapatha">Kramapatha</option>
+                    <option value="Malapatha">Malapatha</option>
+                    <option value="Sikhapatha">Sikhapatha</option>
+                    <option value="Dwajapatha">Dwajapatha</option>
+                    <option value="Rathapatha">Rathapatha</option>
+                    <option value="Dhandapatha">Dhandapatha</option>
+                </select>
+            </div>
+
+            <div>
+                    <textarea id="output" class="form-control rounded border-white mb-3 form-text-area output" rows="5"
+                              cols="30" value="" placeholder="Output"></textarea>
+            </div>
+            <div class="submit-button-wrapper">
+                <input type="submit" id='submit' pys-onclick="main" value="Generate">
+            </div>
+        </form>
+    </div>
+</div>
+
+<py-script src="/Chanting_Techniques/static/python/main.py"></py-script>
 
 
-    <script src="/Chanting_Techniques/static/js/app.js"></script>
-    <script src="https://getbootstrap.com/docs/5.1/dist/js/bootstrap.bundle.min.js"
+<script src="/Chanting_Techniques/static/js/main.js"></script>
+<script src="https://getbootstrap.com/docs/5.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
-
 
 
 </body>

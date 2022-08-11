@@ -1,4 +1,4 @@
-# Chanting_Techniques
+# _Chanting Techniques Now in PWA Application_
 ### Development Approach:
 It is coded in Python. A basic program is used to take the given text line by line. In the given line the words are identified based on the space between the words. And the words will be stored in a list, based on the type of chanting technique the respective pattern will be generated for the given input line
 
@@ -6,16 +6,11 @@ It is coded in Python. A basic program is used to take the given text line by li
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/Saketh-Chandra/Chanting_Techniques) ![GitHub](https://img.shields.io/github/license/Saketh-Chandra/Chanting_Techniques)
 
 
-# :book: How to use the repository?
-
-* [Source Codes](https://github.com/Saketh-Chandra/Chanting_Techniques/tree/master/Chanting%20Techinques/Source%20Code) contains codes that have been tested and are guaranteed to run. For any issues please report to us in the format mentioned below.
-
-* [Source Codes Testing](https://github.com/Saketh-Chandra/Chanting_Techniques/tree/master/Chanting%20Techinques/Source%20Codes%20Testing) contains new codes that are being tested and are scheduled to be pushed to stable channel soon. For any issues please report to us in the format mentioned below. Feel free to also contribute to this folder. Details mentioned below.
 
 Installation
 ------------
-
-* **Download for windows** [Link](https://github.com/Saketh-Chandra/Chanting_Techniques/releases/download/V1.0.2/Chanting_Techniques.exe)
+ ~~**Download for windows** Link~~
+* Install it has PWA application.
 
 ## How to Use:
 1. Taking input:
