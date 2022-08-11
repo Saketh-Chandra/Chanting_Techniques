@@ -10,7 +10,7 @@ It is coded in Python. A basic program is used to take the given text line by li
 Installation
 ------------
  ~~**Download for windows** Link~~
-* Install it has PWA application.
+* Install it has PWA application [App Link](https://saketh-chandra.github.io/Chanting_Techniques/).
 
 ## How to Use:
 1. Taking input:
