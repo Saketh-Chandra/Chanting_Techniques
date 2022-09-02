@@ -1,5 +1,5 @@
 const GHPATH = '/Chanting_Techniques'
-const staticfilesPWA = "StaticFiles_v0.1-alpha"
+const staticfilesPWA = "StaticFiles_v0.1.1-alpha"
 
 const assets = [
     `${GHPATH}/`,
