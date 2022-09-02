@@ -1,12 +1,17 @@
 var filedata = ""
 
 
-async function button() {
-    let [fileHandle] = await window.showOpenFilePicker();
-    let fileData = await fileHandle.getFile();
-    filedata = await fileData.text();
-    document.getElementById("FileName").value = fileData.name;
-    //console.log(fileData.name, typeof (fileData.name))
+function readfile(input) {
+    let textfile = input.files[0];
+    let reader = new FileReader();
+    reader.readAsText(textfile);
+    reader.onload = function () {
+        filedata = reader.result;
+    };
+    reader.onerror = function () {
+        console.log(reader.error);
+    };
+
 }
 
 if ("serviceWorker" in navigator) {

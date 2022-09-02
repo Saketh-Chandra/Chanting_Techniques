@@ -187,9 +187,10 @@
             </h5>
             <p class="description">Generating Pattens in Chanting</p>
             <div>
-                <input type="text" class="form-control rounded border-white mb-3 form-input" id="FileName"
-                       placeholder="File Name">
-                <button class="form-control rounded mb-3" onClick="button();">Open File</button>
+<!--                <input type="text" class="form-control rounded border-white mb-3 form-input" id="FileName"-->
+<!--                       placeholder="File Name">-->
+<!--                <button class="form-control rounded mb-3" onClick="button();">Open File</button>-->
+                <input class="form-control rounded mb-3" type="file" id="textfile" name="textfile" onchange="readfile(this)">
             </div>
             <div>
                 <select class="form-select rounded mb-3" id="selecttpye">
